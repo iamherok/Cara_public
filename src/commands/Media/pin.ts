@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
 		if (amount > 20)
 			return void M.reply(`Do you want me to spam in this group?`);
    
-         const { data } = await axios.get(`https://api.ichikaa.xyz/api/pinterest?query=${term}&apikey=8NtSMQPG`)
+         const { data } = await axios.get(`https://hanzz-web.herokuapp.com/api/pinterest?query=${term}`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
         const buffer = await request.buffer(data.result[Math.floor(Math.random() * data.result.length)]).catch((e) => {
             return void M.reply(e.message)
