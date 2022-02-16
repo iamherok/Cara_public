@@ -36,7 +36,7 @@
         "@typescript-eslint/parser": "^4.22.1",
         "eslint": "^7.26.0",
         "prettier": "^2.2.1",
-        "typescript": "^4.2.4"
+        "typescript": "^4.5.5"
     },
     "dependencies": {
         "@adiwajshing/baileys": "^3.5.3",
@@ -67,7 +67,7 @@
         "fs": "^0.0.1-security",
         "fs-extra": "^10.0.0",
         "genius-lyrics": "^4.3.4",
-        "genshin-db": "^3.11.3",
+        "genshin-db": "^4.1.0",
         "get-urls": "^10.0.0",
         "gifencoder": "^2.0.1",
         "got": "^11.8.3",
@@ -80,7 +80,7 @@
         "lyrics-monarch-api": "^2.1.0",
         "mailist": "^1.0.3",
         "mal-scraper": "^2.11.4",
-        "mangadex-full-api": "^5.7.0",
+        "mangadex-full-api": "^5.9.0",
         "mathjs": "^10.0.0",
         "moment": "^2.29.1",
         "mongoose": "^5.12.12",
@@ -108,7 +108,7 @@
         "ultra-lyrics": "^1.0.3",
         "vtuber-wiki": "^1.1.5",
         "w5-textmaker": "^1.0.2",
-        "wa-sticker-formatter": "^4.2.0",
+        "wa-sticker-formatter": "^4.3.2",
         "wikipedia": "^1.1.6",
         "youtubei.js": "^1.2.8-npm",
         "yt-search": "^2.10.2",
