@@ -1,3 +1,5 @@
+
+  
 import { MessageType} from "@adiwajshing/baileys";
 import MessageHandler from "../../Handlers/MessageHandler";
 import BaseCommand from "../../lib/BaseCommand";
@@ -38,7 +40,7 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `🌈 𝑪𝒂𝒓𝒂 🌈\n\n🔮 *Groups: ${
+            `                 🌈 𝑪𝒂𝒓𝒂 🌈\n\n🔮 *Groups: ${
 				chats.length
 					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🎆 *Users: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
                     undefined
