@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `🎆Cara🎆\n\n🔮 *Groups: ${
+            `🌈 𝑪𝒂𝒓𝒂 🌈\n\n🔮 *Groups: ${
 				chats.length
 					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🎆 *Users: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
                     undefined
