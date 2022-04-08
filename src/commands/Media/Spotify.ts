@@ -1,4 +1,4 @@
-import { MessageType } from '@adiwajshing/baileys'
+import { MessageType, Mimetype  } from '@adiwajshing/baileys'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import request from '../../lib/request'
@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
         ).catch((reason: any) => M.reply(`✖ An error occurred, Reason: ${reason}`))
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        M.reply(await track.getAudio(), MessageType.audio).catch((reason: any) =>
+        M.reply(await track.getAudio(), MessageType.audio,Mimetype.mp4Audio).catch((reason: any) =>
             M.reply(`✖ An error occurred, Reason: ${reason}`)
         )
     }
